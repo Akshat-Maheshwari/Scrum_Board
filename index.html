@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Scrum Board</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Scrum Board</h1>
+		<div class="container">
+			<div class="my-2 mx-2 card float-left">
+				<div class="card-header">
+					Stories
+					<button id="add-btn1" type="button" class="add-btn btn btn-primary btn-sm float-right" >Add</button>
+
+					<div id=adding-things1 class="adding-things">
+						<input id="txt-box1" type="text" class="form-control txt-box" placeholder="Type Here!">
+						<button id="close-btn1" type="button" class="btn btn-danger btn-sm float-right close-btn">Close</button>
+						<button id="save-btn1" type="button" class="btn btn-success btn-sm float-right save-btn">Save</button>
+					</div>
+
+				</div>
+				<div class="card-body">
+					<ul id="story" class="list-group list-group-flush">
+					</ul>
+				</div>
+			</div>
+			<div class="my-2 mx-2 card float-left">
+				<div class=" card-header">
+					To do
+					<button id="add-btn2" type="button" class="add-btn btn btn-primary btn-sm float-right" >Add</button>
+
+					<div id=adding-things2 class="adding-things">
+						<input id="txt-box2" type="text" class="form-control txt-box" placeholder="Type Here!">
+						<button id="close-btn2" type="button" class="btn btn-danger btn-sm float-right close-btn">Close</button>
+						<button id="save-btn2" type="button" class="btn btn-success btn-sm float-right save-btn">Save</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<ul id="todo" class="list-group list-group-flush">
+					</ul>
+				</div>
+			</div>
+			<div class="my-2 mx-2 card float-left">
+				<div class="card-header">
+					In progress
+					<button id="add-btn3" type="button" class="add-btn btn btn-primary btn-sm float-right" >Add</button>
+
+					<div id=adding-things3 class="adding-things">
+						<input id="txt-box3" type="text" class="form-control txt-box" placeholder="Type Here!">
+						<button id="close-btn3" type="button" class="btn btn-danger btn-sm float-right close-btn">Close</button>
+						<button id="save-btn3" type="button" class="btn btn-success btn-sm float-right save-btn">Save</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<ul id="inp" class="list-group list-group-flush">
+					</ul>
+				</div>
+			</div>
+			<div class="my-2 mx-2 card float-left">
+				<div class="card-header">
+					Done
+					<button id="add-btn4" type="button" class="add-btn btn btn-primary btn-sm float-right" >Add</button>
+
+					<div id=adding-things4 class="adding-things">
+						<input id="txt-box4" type="text" class="form-control txt-box" placeholder="Type Here!">
+						<button id="close-btn4" type="button" class="btn btn-danger btn-sm float-right close-btn">Close</button>
+						<button id="save-btn4" type="button" class="btn btn-success btn-sm float-right save-btn">Save</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<ul id="done" class="list-group list-group-flush">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+body > h1 {
+	text-align: center;
+}
+
+.card{
+	width: 23%;
+}
+
+.txt-box{
+	margin: 7px;
+	float: right;
+}
+
+.save-btn{
+	margin-right: 5px;
+}
+
+.adding-things{
+	display:none;
+}
+
+li{
+	height: 150px;
+}
+.story, .todo, .inp, .done{
+	margin-bottom: 25px;
+}
